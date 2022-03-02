@@ -26,7 +26,7 @@ class GenerateSheetController extends Controller
         return $result;
     }
     /*
-    *円の面積
+    *サークルの面積
     */
     public function area_circle(Request $request)
     {
