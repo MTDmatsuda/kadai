@@ -22,7 +22,9 @@ class GenerateSheetController extends Controller
         $result = pow($number,3);
         return $result;
     }
-
+    /*
+    *円の面積
+    */
     public function area_circle(Request $request)
     {
         $radius = $request->input('number');
