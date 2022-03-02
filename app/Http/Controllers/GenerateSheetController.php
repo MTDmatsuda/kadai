@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class GenerateSheetController extends Controller
 {
+    /**
+     *  2乗する関数
+     */
     public function squared(Request $request)
     {
         $number = $request->input('number');
