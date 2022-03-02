@@ -13,6 +13,9 @@ class GenerateSheetController extends Controller
         return $result;
     }
 
+    /**
+     * 3乗する関数
+     */
     public function cubic(Request $request)
     {
         $number = $request->input('number');
